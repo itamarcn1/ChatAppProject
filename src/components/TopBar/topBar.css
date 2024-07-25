@@ -1,0 +1,58 @@
+.top-bar-container {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 13%;
+  padding: 0px 10px;
+  border-bottom: 5px solid rgb(167, 167, 225);
+}
+
+.top-bar-title {
+  font-family: "Work Sans", sans-serif;
+}
+
+.top-bar-chat-icon{
+  margin-left: 7px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  list-style: none;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+  text-transform: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-list:hover {
+  background: none;
+}
+
+@keyframes jump {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+.add-icon-jump {
+  animation: jump 1s ease-in-out;
+}
