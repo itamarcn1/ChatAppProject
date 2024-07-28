@@ -22,7 +22,7 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
    ```bash
    npm i
 
-3. **Set up environment variables:**
+3. **Set up environment variables:** <br/>
     Create a ".env" file in the root directory and configure the following environment variables:
     ```bash
     JWT_SECRET=it
