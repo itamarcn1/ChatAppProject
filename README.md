@@ -28,7 +28,7 @@ npm i
 
 Start the server:
 
-   ```bash
+   `bash
    npm start
 
 Start the front end:
