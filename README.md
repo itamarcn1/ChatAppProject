@@ -29,7 +29,7 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
    npm i
 
 3. **Set up environment variables:** <br/>
-    Create a ".env" file in the root directory and configure the following environment variables:
+    Create a ".env" file inside the backend folder and configure the following environment variables:
     ```bash
     JWT_SECRET=it
 
@@ -38,8 +38,8 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
    ```bash
    npm start
 
-4. **Start the front end:**
-   Open another termnal, and copy:
+4. **Start the front end:** <br/>
+   Open another terminal, and copy:
    ```bash
    cd .\ChatAppProject\
    cd .\MyChatApp\
