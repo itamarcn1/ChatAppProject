@@ -44,7 +44,6 @@ const registerUser = expressAsyncHandler(async (req, res) => {
         const token = generateToken(user._id);
         res.cookie('token', token, {
             httpOnly: true,
-            secure: process.env.NODE_ENV === 'production',
             sameSite: 'strict'
         });
 
@@ -70,7 +69,6 @@ const authUser = expressAsyncHandler(async (req, res) => {
         const token = generateToken(user._id);
         res.cookie('token', token, {
             httpOnly: true,
-            secure: process.env.NODE_ENV === 'production',
             sameSite: 'strict',
             maxAge: 3 * 60 * 60 * 1000
         });
@@ -144,7 +142,6 @@ const updateUserProfile = expressAsyncHandler(async (req, res) => {
                 const token = generateToken(updatedUser._id);
                 res.cookie('token', token, {
                     httpOnly: true,
-                    secure: process.env.NODE_ENV === 'production',
                     sameSite: 'strict'
                 });
             }
