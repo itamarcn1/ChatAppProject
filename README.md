@@ -33,12 +33,12 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
 
 4. **Start the front end:**
    ```bash
-    cd .\MyChatApp\
-    npm run dev
+   cd .\MyChatApp\
+   npm run dev
 5. **Access the application:**
     Open your browser and go to http://localhost:5000.
 
-**Features:** <br/>
+## Features: <br/>
 Real-time messaging <br/>
 User authentication <br/>
 Chat one-on-one <br/>
