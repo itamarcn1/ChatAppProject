@@ -3,17 +3,17 @@
 ## Description
 A real-time chat application built using Node.js, Express, and Socket.io for handling live messages.
 
-## content:
-- [Installation](#installation)
-- [Features](#features)
+<!-- ## Content:
+- [Getting_Started](#Getting Started)
+- [Features](#features) -->
 
-## Installation
+## Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/en/download/)
 
 
-### Steps
+### Installation Steps
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/itamarcn1/ChatAppProject
@@ -27,6 +27,7 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
     ```bash
     JWT_SECRET=it
 
+### Deployment
 3. **Start the server:**
    ```bash
    npm start
@@ -38,8 +39,16 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
 5. **Access the application:**
     Open your browser and go to http://localhost:5000.
 
-## Features <br/>
-Real-time messaging <br/>
-User authentication <br/>
-Chat one-on-one <br/>
-Group chats <br/>
+### Features 
+* Real-time messaging 
+* User authentication 
+* Chat one-on-one 
+* Group chats 
+
+### Built With:
+* Material ui
+* Bootstrap
+* Socket-io
+* React
+* JavaScript
+* express
