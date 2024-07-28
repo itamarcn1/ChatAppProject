@@ -38,7 +38,7 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
 5. **Access the application:**
     Open your browser and go to http://localhost:5000.
 
-## Features: <br/>
+## Features <br/>
 Real-time messaging <br/>
 User authentication <br/>
 Chat one-on-one <br/>
