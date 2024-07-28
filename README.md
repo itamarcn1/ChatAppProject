@@ -3,7 +3,7 @@
 ## Description
 A real-time chat application built using Node.js, Express, and Socket.io for handling live messages.
 
-## Table of Contents
+## content:
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -15,39 +15,28 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/en/download/) (v12.x or later)
-- [npm](https://www.npmjs.com/get-npm)
+
 
 ### Steps
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/chat-app.git
-   cd chat-app
-Install dependencies:
+   git clone https://github.com/itamarcn1/ChatAppProject
+   cd .\MyChatApp\
+   Install dependencies:
 
-bash
-Copy code
-npm install
-Set up environment variables:
-Create a .env file in the root directory and configure the following environment variables:
+npm i
 
-env
-Copy code
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
 Start the server:
 
-bash
-Copy code
-npm start
-Usage
-Start the development server:
+   ```bash
+   npm start
 
-bash
-Copy code
-npm run dev
-Access the application:
-Open your browser and go to http://localhost:5000.
+Start the front end:
+
+   ```bash
+    npm run dev
+    Access the application:
+    Open your browser and go to http://localhost:5000.
 
 Features
 Real-time messaging
