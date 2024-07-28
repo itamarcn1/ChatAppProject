@@ -16,7 +16,7 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/en/download/)
-
+- [MongoDB](https://www.mongodb.com/try/download/community)
 
 ### Installation Steps
 1. **Clone the repository:**
@@ -61,3 +61,4 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
 * React
 * JavaScript
 * Express
+* MongoDB
