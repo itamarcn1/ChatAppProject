@@ -25,6 +25,7 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
 
 2. **Install dependencies:**
    ```bash
+   cd .\ChatAppProject\
    npm i
 
 3. **Set up environment variables:** <br/>
@@ -38,10 +39,11 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
    npm start
 
 4. **Start the front end:**
+   Open a second terminal
    ```bash
    cd .\MyChatApp\
    npm run dev
-5. **Access the application:**
+6. **Access the application:**
     Open your browser and go to http://localhost:5000.
 
 ### Features 
