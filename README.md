@@ -23,31 +23,30 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
    cd .\MyChatApp\
 
 
-Install dependencies:
+2. **Install dependencies:**
    ```bash
    npm i
 
-Start the server:
+3. **Start the server:**
 
-   `bash
+   ```bash
    npm start
 
-Start the front end:
+4. **Start the front end:**
 
    ```bash
     npm run dev
     Access the application:
     Open your browser and go to http://localhost:5000.
 
-Features
+**Features:**
 Real-time messaging
 User authentication
-Chat rooms
-File uploads
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Chat one-on-one
+Group chats
 
-Credits
+**Credits**
 Bootstrap
 Font Awesome
+Material ui
 Socket.io
