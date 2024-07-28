@@ -3,9 +3,14 @@
 ## Description
 A real-time chat application built using Node.js, Express, and Socket.io for handling live messages.
 
-<!-- ## Content:
-- [Getting_Started](#Getting Started)
-- [Features](#features) -->
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation Steps](#installation-steps)
+- [Deployment](#deployment)
+- [Features](#features)
+- [Built With](#built-with)
+
 
 ## Getting Started
 
@@ -51,4 +56,4 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
 * Socket-io
 * React
 * JavaScript
-* express
+* Express
