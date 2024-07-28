@@ -7,14 +7,13 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
 
 ## Installation
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/en/download/) (v12.x or later)
+- [Node.js](https://nodejs.org/en/download/)
 
 
 ### Steps
@@ -22,9 +21,11 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
    ```bash
    git clone https://github.com/itamarcn1/ChatAppProject
    cd .\MyChatApp\
-   Install dependencies:
 
-npm i
+
+Install dependencies:
+   ```bash
+   npm i
 
 Start the server:
 
