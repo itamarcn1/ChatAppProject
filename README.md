@@ -23,7 +23,7 @@ A real-time chat application built using Node.js, Express, and Socket.io for han
    ```bash
    git clone https://github.com/itamarcn1/ChatAppProject
 
-If you downloaded a zip file of the project there is no need to clone it, just continue with the following steps but ignore and don't copy only the command line "cd .\ChatAppProject\"
+If you downloaded a zip file of the project there is no need to clone it, just continue with the following steps but ignore and don't copy only the command line "cd .\ChatAppProject\" in stage 2 and 4
 
 2. **Install dependencies:**
    ```bash
